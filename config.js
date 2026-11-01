@@ -2,8 +2,8 @@
 window.CONFIG = {
   // Preço da Super Black Friday.
   PRECO: 297,
-  // Esta versão (oferta-black-tr): 1 ano, sem acesso extra. A âncora é a soma dos valores × ANOS × ACESSOS.
-  ANOS: 1,
+  // Esta versão (oferta-black-tr): 2 anos, sem acesso extra (Pedro, 1/11/2026). A âncora é a soma dos valores × ANOS × ACESSOS.
+  ANOS: 2,
   ACESSOS: 1,
   // Parcela no cartão: a mesma do VIP anual de R$ 297 no Hub.la.
   PARCELA: "12x de R$ 30,18",
