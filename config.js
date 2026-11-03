@@ -23,17 +23,18 @@ window.CONFIG = {
   CHECKOUT: "",
 
   // Pilha de valor: "valor" é o preço de 1 ano de cada entrega, para UM acesso.
+  // Âncora do dono (02/11/2026, à noite): só a Comunidade VIP muda (= o preço da página); o resto é fixo e soma 1.132 por ano. Âncora = (VIP + 1.132) x 2.
   // A âncora da página é a soma × 2 anos × 2 acessos (pedido do Pedro, 31/10/2026).
   // Valores passados pelo Pedro em 1/11/2026 para esta versão (soma R$ 2.779).
   PRINCIPAIS: [
-    { nome: "Comunidade VIP no WhatsApp", desc: "Grupos separados por região, com mais de 1.000 promoções por semana e todas as datas disponíveis, saindo de todo o Brasil para o Brasil e o mundo.", valor: 797, oficial: true },
-    { tag: "Novidade", nome: "Plataforma Central de Voos", desc: "Tudo da Central no seu celular: busca personalizada entre todas as promoções ativas e monitoramento das suas passagens com IA.", valor: 497, oficial: true },
-    { nome: "Workshop: O Segredo das Passagens Baratas", desc: "Um encontro ao vivo pra entender de vez como chegar nas passagens mais baratas que existem.", valor: 497, oficial: true },
+    { nome: "Comunidade VIP no WhatsApp", desc: "Grupos separados por região, com mais de 1.000 promoções por semana e todas as datas disponíveis, saindo de todo o Brasil para o Brasil e o mundo.", valor: 297, oficial: true },
+    { tag: "Novidade", nome: "Plataforma Central de Voos", desc: "Tudo da Central no seu celular: busca personalizada entre todas as promoções ativas e monitoramento das suas passagens com IA.", valor: 397, oficial: true },
+    { tag: "Ao vivo", nome: "Workshop: O Segredo das Passagens Baratas", desc: "Um encontro ao vivo pra entender de vez como chegar nas passagens mais baratas que existem.", valor: 247, oficial: true },
   ],
   BONUS: [
-    { nome: "Curso Completo de Milhas", desc: "Pra quem quiser aprender a viajar pagando só a taxa de embarque. Você não precisa saber nada disso pra aproveitar o VIP.", valor: 397, oficial: true },
-    { nome: "Grupo de Estratégias", desc: "Transferências bonificadas, promoções de compra de milhas e as melhores oportunidades, em primeira mão.", valor: 297, oficial: true },
-    { nome: "Suporte Jurídico Gratuito", desc: "Advogada especialista no direito do passageiro aéreo pra qualquer problema nas suas viagens.", valor: 197, oficial: true },
+    { nome: "Curso Completo de Milhas", desc: "Pra quem quiser aprender a viajar pagando só a taxa de embarque. Você não precisa saber nada disso pra aproveitar o VIP.", valor: 147, oficial: true },
+    { nome: "Grupo de Estratégias", desc: "Transferências bonificadas, promoções de compra de milhas e as melhores oportunidades, em primeira mão.", valor: 97, oficial: true },
+    { nome: "Suporte Jurídico Gratuito", desc: "Advogada especialista no direito do passageiro aéreo pra qualquer problema nas suas viagens.", valor: 147, oficial: true },
     { nome: "Guia dos Melhores Cartões de Crédito", desc: "Pra transformar cada gasto do seu dia a dia em viagens inesquecíveis.", valor: 97, oficial: true },
   ],
 
