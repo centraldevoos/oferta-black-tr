@@ -6,7 +6,7 @@ window.CONFIG = {
   ANOS: 2,
   ACESSOS: 1,
   // Parcela no cartão: a mesma do VIP anual de R$ 297 no Hub.la.
-  PARCELA: "12x de R$ 30,18",
+  PARCELA: "12x de R$ 30,52",
   // Valor de 1 ano de Comunidade VIP nesta versão (âncora de R$ 797, como na base).
   PRECO_VIP_ANO: 797,
 
